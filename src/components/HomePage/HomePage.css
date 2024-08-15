@@ -1,0 +1,53 @@
+.container-home {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-login {
+  min-width: 10rem;
+  min-height: 3rem;
+  justify-content: center;
+}
+
+.button-register {
+  display: flex; 
+  align-items: center;
+}
+
+.button-register button {
+  max-width: 50%;
+  padding: 0.2rem;
+}
+
+.form {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.login-form {
+  justify-content: center;
+}
+
+.login-user {
+  display: flex;
+  width: 50%;
+  justify-content:center;
+  margin: 40px auto 40px auto;
+  border: 1px dotted #747474;
+}
+
+.profile {
+  text-align: center;
+}
+
+.button-score-table {
+  position: absolute;
+  width: 150px;
+  margin: 20px;
+  bottom: 0;
+  right: 0;
+}

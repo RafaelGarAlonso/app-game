@@ -1,0 +1,104 @@
+.navbar-info {
+    display: flex;
+}
+
+.button-back {
+    position: absolute;
+    width: 100px;
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.game-buttons {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.turn {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.game-images {
+    border: 1px dotted #747474;
+    padding: 5px;
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+.your-chosen {
+    color: brown;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.bot-chosen {
+    color: blue;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.play-again {
+    margin-top: 50px;
+    width: 150px;
+}
+
+.result {
+    width: 300px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.result-win {
+    background-color: green;
+}
+
+.result-lose {
+    background-color: red;
+}
+
+.result-tie {
+    color: #000;
+    background-color: yellow;
+}
+
+.rock {
+    background-color: red;
+}
+
+.button-rock {
+    margin-right: 25px;
+}
+
+.button-scissors {
+    margin-top: 20px;
+}
+
+.paper {
+    background-color: yellow;
+}
+
+.scissors {
+    background-color: green;
+}
+
+.progress-bot {
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    margin: 5px;
+    padding: 0;
+}

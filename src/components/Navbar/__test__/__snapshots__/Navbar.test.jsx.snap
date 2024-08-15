@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Navbar /> Check snapshot component 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="name"
+    >
+      Name: 
+      Manolo
+    </div>
+    <div
+      class="points"
+    >
+      Points: 
+      100
+    </div>
+  </div>
+</div>
+`;

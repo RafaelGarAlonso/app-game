@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GamePage /> Check snapshot component page 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="name"
+    >
+      Name: 
+    </div>
+    <div
+      class="points"
+    >
+      Points: 
+      0
+    </div>
+  </div>
+  <div
+    class="container-game container-fluid"
+  >
+    <div
+      class="game-buttons"
+    >
+      <div
+        class="turn"
+      >
+        Your turn!
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <button
+            class="button-rock"
+          >
+            <img
+              class="game-images rock img-thumbnail"
+              src="assets/rock.png"
+            />
+          </button>
+          <button
+            class="button-paper"
+          >
+            <img
+              class="game-images paper img-thumbnail"
+              src="assets/paper.png"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <button
+            class="button-scissors"
+          >
+            <img
+              class="game-images scissors img-thumbnail"
+              src="assets/scissors.png"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    class="button-back btn btn-dark btn-lg"
+    type="button"
+  >
+    Exit
+  </button>
+</div>
+`;

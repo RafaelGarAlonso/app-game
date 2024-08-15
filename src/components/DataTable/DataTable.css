@@ -1,0 +1,12 @@
+thead, tr, th {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+th, td {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    cursor: pointer;
+}
